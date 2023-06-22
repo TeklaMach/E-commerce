@@ -1,0 +1,306 @@
+@font-face {
+  font-family: 'BPG Nino Mtavruli Bold';
+  src: url('../fonts/bpg_nino_mtavruli_bold.ttf') format('truetype');
+}
+
+.product-content{
+  padding-bottom: 20px;
+}
+.product-details{
+  font-family: 'BPG Nino Mtavruli Bold';
+  margin-left: 163px;
+  margin-top: 55px;
+  border-radius: 25px;
+  background-color: #fff;
+  border: solid 1px #eee;
+  width: 1070px;
+  height: 510px;
+}
+.product-images{
+  margin-right: 185px;
+  margin-left: 32px;
+  margin-top: 24px;
+}
+.product-memory-title{
+  flex-direction: column;
+  font-family: 'BPG Nino Mtavruli Bold';
+}
+.product-memories{
+  display: flex;
+  gap: 8px;
+}
+.memories{
+  padding: 13px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #ff37d5a8;
+}
+.product-color-paletes{
+  display: flex;
+  gap: 8px;
+  margin-top: 26px;
+}
+.product-status{
+  font-family: 'BPG Nino Mtavruli Bold';
+  display: flex;
+  align-items: baseline;
+  border: 1px solid rgb(215, 207, 207);
+  border-radius: 15px;
+}
+.product-status-icon{
+color: green;
+}
+h3{
+  margin-left: 270px;
+}
+.product-features{
+  display: flex;
+}
+.spec-name{
+  margin: 0px;
+}
+.product-s-d{
+  margin-right: -354px;
+}
+.color{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.color-one{
+  background-color: #0a3251;
+}
+.color-two{
+  background: #eedddd;
+}
+.color-three{
+  background: #ebc6f5;
+}
+.current-image{
+  border-radius: 4px;
+  background-color: #fff;
+  border: solid 1px #f5f5f5;
+  width: 282px;
+}
+.detailed-images{
+  margin-top: 16px;
+  display: flex;
+  gap: 18px;
+}
+.detailed-image{
+  width: 66px;
+  border: solid 1px #f5f5f5;
+  cursor: pointer;
+}
+.productView-image{
+  padding: 10px;
+  height: auto;
+
+}
+.product-details{
+  display: flex;
+}
+.product-settings{
+  flex-direction: column;
+}
+.productView-title{
+  font-family: 'BPG Nino Mtavruli Bold';
+  width: 400px;
+}
+  .product-s-d li {
+    list-style: none;
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+}
+.spec-l-side {
+  width: 70%;
+  border-top: 1px dashed rgba(108,125,144,.5);
+  position: relative;
+  margin-right: 10px;
+  top: 1px;
+}
+.spec-name {
+  font-family: 'BPG Nino Mtavruli Bold';
+  position: absolute;
+  top: -11px;
+  left: 0;
+  background: #fff;
+  padding-right: 10px;
+  color: #6c7d90;
+  font-size: 12px;
+  
+}
+.product-s-d li b {
+  width: 30%;
+  color: #0a3251;
+  font-size: 13px;
+  font-family: 'FiraGO-SemiBold';
+}
+.details{
+  margin-top: 55px;
+  margin-left: 165px;
+  padding: 15px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #a8e2f4;
+  background-image: linear-gradient(45deg, #a7d3f4 0%, #8488f4  51%, #f988ec  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.details:hover{
+  color: #f9ad6c;
+}
+.description{
+  font-size: 16px;
+  color: #0a3251;
+}
+.productDescription{
+  margin-top: 5px;
+  font-family: 'BPG Nino Mtavruli Bold';
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px 10px;
+}
+.addToCart1{
+  padding: 15px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  font-family: 'BPG Nino Mtavruli Bold';
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #a8e2f4;
+  background-image: linear-gradient(45deg, #a7d3f4 0%, #8488f4  51%, #f988ec  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+@media (max-width: 600px) {
+  .product-details {
+    display: block;
+    width: 318px;
+    height: 701px;
+    margin-left: 20px;
+    margin-top: 11px;
+  }
+  .product-images{
+    margin-left: 84px;
+  }
+  .current-image {
+    width: 146px;
+  }
+  .detailed-image{
+    width: 41px;
+    margin-left: -32px;
+    margin-right: 36px;
+  }
+  .detailed-images{
+    gap: 13px;
+  }
+  .productView-title{
+    font-size: 16px;
+    width: 298px;
+    margin-left: 14px;
+  }
+  .productView-image{
+    width: 118px
+  }
+  .product-status-text {
+    margin-left: 153px;
+    font-size: 13px;
+}
+.css-i4bv87-MuiSvgIcon-root {
+  width: 20px !important;
+}
+.product-status{
+  width: 249px;
+  align-items: center;
+  height: 29px;
+  margin-left: 34px;
+}
+.color {
+  width: 21px;
+  height: 21px;
+}
+.memories {
+  padding: 3px;
+  font-size: 18px;
+  margin-left: 11px;
+}
+.product-features{
+  display: block;
+}
+.spec-name {
+ margin-left: -18px;
+}
+.rating{
+  margin-left: 100px;
+}
+.review{
+  margin-left: 20px;
+}
+.product-s-d {
+  margin-right: -6px;
+}
+.product-s-d li b {
+  margin-right: 38px;
+}
+.memory{
+  margin-left: 20px;
+}
+.product-color-paletes {
+  justify-content: center;
+}
+.details {
+  margin-top: 24px;
+  margin-left: 128px;
+}
+.addToCart1{
+  margin-top: 30px;
+}
+}
+@media only screen and (min-width: 768px) {
+  .product-details {
+    width: 972px;
+    margin-left: 13px;
+  }
+  .product-s-d {
+    margin-right: -302px;
+}
+.spec-l-side {
+  left: -31px;
+  margin-right: -29px;
+}
+.details {
+  margin-left: 45px;
+}
+.addToCart1{
+  margin-top: -39px;
+    margin-left: 77px;
+}
+
+} 
+@media only screen and (min-width: 1200px) {
+  .product-details {
+    margin-left: 124px;
+}
+.details {
+  margin-left: 132px;
+}
+} 

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Lilita One';
+  src: url('../fonts/LilitaOne-Regular.ttf') format('truetype');
+}
+.navbarItem {
+  color: #2c2a2a;
+  font-family: 'Lilita One';
+    transition: color 0.3s ease;
+  }
+  
+  .navbarItem:hover {
+    color: #ff4081;
+  }
+.logo{
+  color: #ff4081;
+  font-family: 'Lilita One';
+}
+
+  @media (max-width: 600px) {
+    .navbarItem {
+      font-size: 13px !important;
+      width: 51px;
+      margin-right: -20px !important;
+    }
+    .logoText{
+      font-size: 16px;
+    }
+  }
